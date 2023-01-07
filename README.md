@@ -1,3 +1,31 @@
+# 알고리즘 (Algorithm)
+- 제한된 시간과 공간 내에서 데이터를 어떻게 처리할 것인지를 정해놓은 로직
+- 어떤 작업을 수행하기 위해 입력을 받아 원하는 출력을 만들어내는 과정을 기술한 것
+# 알고리즘의 종류
+
+## 탐색 (Search)
+
+- 선형 탐색 (Linear Search)
+- 이진 탐색 (Binary Search)
+- 순차 탐색 (Sequential Search)
+- 해시 탐색 (Hash Serach)
+
+## 정렬 (Sorting)
+
+- 선택 정렬 (Selection Sort)
+- 삽입 정렬 (Insertion Sort)
+- 버블 정렬 (Bubble Sort)
+- 병합 정렬 (Merge Sort)
+- 퀵 정렬 (Quick Sort)
+- 힙 정렬 (Heap Sort)
+- 기수 정렬 (Radix Sort)
+- 계수 정렬 (Count Sort)
+
+## 완전 탐색 (Exhaustive Search)
+ -- 여기부터 정리 시작 --
+
+<hr>
+
 # 자료구조와 알고리즘
 
 ## 필수 자료구조 8가지
@@ -9,12 +37,6 @@
 * **Graph [그래프]**
 * **Tree [트리]**
 * **Heap [힙]**
-
-
-<hr>
-여기다 정리해야지
-<hr>
-
 
 ## 공부 리스트
 * **정렬**
