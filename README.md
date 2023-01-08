@@ -1,7 +1,8 @@
 # 알고리즘 (Algorithm)
 - 제한된 시간과 공간 내에서 데이터를 어떻게 처리할 것인지를 정해놓은 로직
 - 어떤 작업을 수행하기 위해 입력을 받아 원하는 출력을 만들어내는 과정을 기술한 것
-# 알고리즘의 종류
+
+# 핵심 알고리즘의 종류
 
 ## 탐색 (Search)
 
@@ -22,7 +23,18 @@
 - 계수 정렬 (Count Sort)
 
 ## 완전 탐색 (Exhaustive Search)
- -- 여기부터 정리 시작 --
+- 브루트 포스 (Brute Force)
+- 백 트래킹 (Back Tracking)
+- 비트 마스크 (Bit Mask)
+- 순열 (Permutation)
+- 재귀 (Recursion)
+- DFS (Depth First Search)
+- BFS (Breadth FIrst Search)
+
+## 문제 해결 전략 (Problem Solving Strategy)
+- 동적 계획법 (Dynamic Programming)
+- 분할 정복 (Divide & Conquer)
+- 탐욕 알고리즘 (Greedy Algorithm)
 
 <hr>
 
