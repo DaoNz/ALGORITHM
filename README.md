@@ -4,14 +4,14 @@
 
 # 핵심 알고리즘의 종류
 
-## 탐색 (Search)
+## I. 탐색 (Search)
 
 - 선형 탐색 (Linear Search)
 - 이진 탐색 (Binary Search)
 - 순차 탐색 (Sequential Search)
 - 해시 탐색 (Hash Serach)
 
-## 정렬 (Sorting)
+## II. 정렬 (Sorting)
 
 - 선택 정렬 (Selection Sort)
 - 삽입 정렬 (Insertion Sort)
@@ -22,7 +22,7 @@
 - 기수 정렬 (Radix Sort)
 - 계수 정렬 (Count Sort)
 
-## 완전 탐색 (Exhaustive Search)
+## III. 완전 탐색 (Exhaustive Search)
 - 브루트 포스 (Brute Force)
 - 백 트래킹 (Back Tracking)
 - 비트 마스크 (Bit Mask)
@@ -31,7 +31,7 @@
 - DFS (Depth First Search)
 - BFS (Breadth FIrst Search)
 
-## 문제 해결 전략 (Problem Solving Strategy)
+## IV. 문제 해결 전략 (Problem Solving Strategy)
 - 동적 계획법 (Dynamic Programming)
 - 분할 정복 (Divide & Conquer)
 - 탐욕 알고리즘 (Greedy Algorithm)
