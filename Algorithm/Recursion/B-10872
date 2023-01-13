@@ -11,6 +11,7 @@ public class Main {
             for(int i=1; i<=N; i++)
                 R = R*i;
             System.out.print(R);
+
         }
     }  
 }
