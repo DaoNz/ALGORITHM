@@ -35,3 +35,4 @@ public class B2775 {
 			System.out.println(i);
 	}
 }
+
