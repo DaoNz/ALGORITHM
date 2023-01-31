@@ -26,6 +26,5 @@ public class Main {
                 System.out.printf("%d %s\n",i,s);
             }
         }
-
     }
 }
