@@ -19,7 +19,7 @@ public class Main {
 		
 		for(int i=0; i<N; i++)
 			res += A[N-1-i] * B[i];
-		
+			
 		System.out.println(res);
 	}
 }
