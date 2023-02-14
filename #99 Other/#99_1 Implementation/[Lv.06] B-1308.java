@@ -12,7 +12,7 @@ public class LV6_1308 {
                 ||(sY+1000 == eY && sM == eM && sD < eD)
                 ||(sY+1000 == eY && sM == eM && sD == eD))
             System.out.println("gg");
-
+         
         else {
             while (sY < eY || sM < eM || sD < eD) {
                 dDay++;
