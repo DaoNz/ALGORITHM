@@ -16,7 +16,7 @@ public class Main {
             for (int j = 0; j < P; j++) subSt.push(mainSt.pop());
             mainSt.push(i);
             for (int j = 0; j < P; j++) mainSt.push(subSt.pop());
-        }
+        } 
         for(int i : mainSt) System.out.printf("%d ", i);
     }
 }
