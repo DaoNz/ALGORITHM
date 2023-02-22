@@ -20,3 +20,4 @@ public class Main {
         for(int i : mainSt) System.out.printf("%d ", i);
     }
 }
+
