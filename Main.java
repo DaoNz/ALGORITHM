@@ -1,31 +1,25 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Map<Integer, Integer> countMod = new HashMap<>();
-		int[] arr = new int[10];
-		int ave = 0;
-		int max = 0;
-		for (int i = 0; i < 10; i++) {
-			arr[i] = sc.nextInt();
-			ave += arr[i];
+		StringBuilder sb = new StringBuilder();
+		Stack<Integer> st = new Stack<>();
+		Queue<Integer> q = new LinkedList<>();
+		int N = sc.nextInt();
+		for (int i = 0; i < N; i++) q.offer(sc.nextInt());
 
-			if (!countMod.containsKey(arr[i])) countMod.put(arr[i], 1);
-			else countMod.put(arr[i], countMod.get(arr[i]) + 1);
-			max = Math.max(max, countMod.get(arr[i]));
-		}
-
-		System.out.println(ave / 10);
-
-		for (int m : countMod.keySet())
-			if (countMod.get(m) == max) {
-				System.out.println(m);
-				break;
+		for (int i = 1; i <= N; i++) {
+			st.push(i);
+			sb.append("+\n");
+			while (!st.isEmpty() && !q.isEmpty() && Objects.equals(st.peek(), q.peek())) {
+				st.pop();
+				q.poll();
+				sb.append("-\n");
 			}
-		
+		}
+		if (!st.isEmpty() || !q.isEmpty()) System.out.println("NO");
+		else System.out.println(sb.toString());
 	}
 }
