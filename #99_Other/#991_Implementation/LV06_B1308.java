@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LV06_1308 {
+public class LV06_B1308 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sY = sc.nextInt(), sM = sc.nextInt(), sD = sc.nextInt();

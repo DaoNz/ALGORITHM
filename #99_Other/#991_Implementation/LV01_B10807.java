@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class LV01_B10807 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int count = 0;
